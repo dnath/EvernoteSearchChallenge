@@ -433,7 +433,7 @@ public class EvernoteSearch {
 
     public static void main(String[] args) {
         try {
-            String inputFilename = "input.txt";
+            String inputFilename = "input/input.txt";
             EvernoteSearch solution = new EvernoteSearch(inputFilename);
             solution.run();
         } catch(Throwable t) {
